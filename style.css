@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a0a0a;
+}
+ 
+.container {
+  width: 380px;
+  background: #111;
+  padding: 40px 32px;
+  border-radius: 15px;
+  border-top: 4px solid #e50914;
+  box-shadow: 0 0 35px rgba(229, 9, 20, 0.3);
+}
+ 
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+}
+ 
+h2 span {
+  color: #e50914;
+}
+ 
+.sub {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  margin: 5px 0 25px;
+}
+ 
+label {
+  display: block;
+  color: #ccc;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+ 
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+ 
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  border-color: #e50914;
+}
+ 
+.pass-box {
+  position: relative;
+}
+ 
+#eye {
+  position: absolute;
+  right: 12px;
+  top: 13px;
+  font-size: 13px;
+  color: #e50914;
+  cursor: pointer;
+}
+ 
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 22px;
+}
+ 
+.row a {
+  color: #e50914;
+  text-decoration: none;
+}
+ 
+button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #e50914;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background: #b8070f;
+}
+ 
+.bottom {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  margin-top: 20px;
+}
+ 
+.bottom a {
+  color: #e50914;
+  text-decoration: none;
+}
